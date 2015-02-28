@@ -1,3 +1,4 @@
+
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Set;
@@ -7,7 +8,7 @@ import com.google.common.collect.Multiset;
 import com.google.common.collect.Table;
 import com.google.common.collect.Table.Cell;
 
-public class MulticlassPerceptron 
+public class MulticlassPerceptronAvj 
 {
 	  static int MAX_ITER = 500;
 	  static double LEARNING_RATE = 0.1;           
@@ -29,6 +30,12 @@ public class MulticlassPerceptron
 		  double[] weights__sports = new double[ globo_dict_size + 1 ];//one for bias
 		  double[] weights__politics = new double[ globo_dict_size + 1 ];//one for bias
 		  double[] weights__atheism = new double[ globo_dict_size + 1 ];//one for bias
+		  
+		   //store weights to be averaged.   
+		   Multiset<double[]> cached_weights__science = HashMultiset.create();
+		   Multiset<double[]> cached_weights__sports = HashMultiset.create();
+		   Multiset<double[]> cached_weights__politics = HashMultiset.create();
+		   Multiset<double[]> cached_weights__atheism = HashMultiset.create();
 		   
 		  
 		  for (int i = 0; i < ( globo_dict_size + 1 ); i++) 
@@ -102,6 +109,9 @@ public class MulticlassPerceptron
 				  //summation of squared error (error value for all instances)
 				  globalError += (localError*localError);
 			  }
+			  
+	           //store weights for averaging
+	           cached_weights__science.add( Arrays.copyOf(weights__science, weights__science.length) );
 
 			  /* Root Mean Squared Error */
 			  if (iteration < 10) 
@@ -110,7 +120,7 @@ public class MulticlassPerceptron
 				  System.out.println("Iteration " + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  //System.out.println( Arrays.toString( weights ) );
 		  } 
-		  while(globalError != 0 && iteration<MAX_ITER);
+		  while(globalError != 0 && iteration<=MAX_ITER);
 		  System.out.println();
 		  System.out.println();
 		  System.out.println();
@@ -142,6 +152,9 @@ public class MulticlassPerceptron
 				  //summation of squared error (error value for all instances)
 				  globalError += (localError*localError);
 			  }
+			  
+	           //store weights for averaging
+	           cached_weights__sports.add( Arrays.copyOf(weights__sports, weights__sports.length) );
 
 			  /* Root Mean Squared Error */
 			  if (iteration < 10) 
@@ -150,7 +163,7 @@ public class MulticlassPerceptron
 				  System.out.println("Iteration " + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  //System.out.println( Arrays.toString( weights ) );
 		  } 
-		  while(globalError != 0 && iteration<MAX_ITER);
+		  while(globalError != 0 && iteration<=MAX_ITER);
 		  System.out.println();
 		  System.out.println();
 		  System.out.println();
@@ -183,6 +196,9 @@ public class MulticlassPerceptron
 				  //summation of squared error (error value for all instances)
 				  globalError += (localError*localError);
 			  }
+			  
+	           //store weights for averaging
+	           cached_weights__politics.add( Arrays.copyOf(weights__politics, weights__politics.length) );
 
 			  /* Root Mean Squared Error */
 			  if (iteration < 10) 
@@ -191,7 +207,7 @@ public class MulticlassPerceptron
 				  System.out.println("Iteration " + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  //System.out.println( Arrays.toString( weights ) );
 		  } 
-		  while(globalError != 0 && iteration<MAX_ITER);
+		  while(globalError != 0 && iteration<=MAX_ITER);
 		  System.out.println();
 		  System.out.println();
 		  System.out.println();
@@ -223,6 +239,9 @@ public class MulticlassPerceptron
 				  //summation of squared error (error value for all instances)
 				  globalError += (localError*localError);
 			  }
+			  
+	           //store weights for averaging
+	           cached_weights__atheism.add( Arrays.copyOf(weights__atheism, weights__atheism.length) );
 
 			  /* Root Mean Squared Error */
 			  if (iteration < 10) 
@@ -231,12 +250,93 @@ public class MulticlassPerceptron
 				  System.out.println("Iteration " + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  //System.out.println( Arrays.toString( weights ) );
 		  } 
-		  while(globalError != 0 && iteration<MAX_ITER);
+		  while(globalError != 0 && iteration<=MAX_ITER);
 		  System.out.println();
 		  System.out.println();
 		  System.out.println();
 		  
 		  
+
+		  
+		  
+	       //compute averages science
+	       double[] sum_weights__science = new double[ globo_dict_size + 1 ];
+	       double[] average_weights__science = new double[ globo_dict_size + 1 ];
+
+	       for (Multiset.Entry<double[]> entry : cached_weights__science.entrySet() ) 
+	       {
+	           double[] value = entry.getElement();
+	           
+	           for(int pos=0; pos < globo_dict_size + 1; pos++)
+	           {
+	        	   sum_weights__science[ pos ] +=  value[ pos ]; 
+	           }
+	       }
+	       for(int pos=0; pos < globo_dict_size + 1; pos++)
+	       {
+	    	   average_weights__science[ pos ] = sum_weights__science[ pos ] / cached_weights__science.size(); 
+	       }
+	       
+	       
+	       //compute averages sports
+	       double[] sum_weights__sports = new double[ globo_dict_size + 1 ];
+	       double[] average_weights__sports = new double[ globo_dict_size + 1 ];
+
+	       for (Multiset.Entry<double[]> entry : cached_weights__sports.entrySet() ) 
+	       {
+	           double[] value = entry.getElement();
+	           
+	           for(int pos=0; pos < globo_dict_size + 1; pos++)
+	           {
+	        	   sum_weights__science[ pos ] +=  value[ pos ]; 
+	           }
+	       }
+	       for(int pos=0; pos < globo_dict_size + 1; pos++)
+	       {
+	    	   average_weights__sports[ pos ] = sum_weights__sports[ pos ] / cached_weights__sports.size(); 
+	       }
+	       
+	       
+	       //compute averages atheism
+	       double[] sum_weights__atheism = new double[ globo_dict_size + 1 ];
+	       double[] average_weights__atheism = new double[ globo_dict_size + 1 ];
+
+	       for (Multiset.Entry<double[]> entry : cached_weights__atheism.entrySet() ) 
+	       {
+	           double[] value = entry.getElement();
+	           
+	           for(int pos=0; pos < globo_dict_size + 1; pos++)
+	           {
+	        	   sum_weights__atheism[ pos ] +=  value[ pos ]; 
+	           }
+	       }
+	       for(int pos=0; pos < globo_dict_size + 1; pos++)
+	       {
+	    	   average_weights__atheism[ pos ] = sum_weights__atheism[ pos ] / cached_weights__atheism.size(); 
+	       }
+		  
+	       
+	       //compute averages politics
+	       double[] sum_weights__politics = new double[ globo_dict_size + 1 ];
+	       double[] average_weights__politics = new double[ globo_dict_size + 1 ];
+
+	       for (Multiset.Entry<double[]> entry : cached_weights__politics.entrySet() ) 
+	       {
+	           double[] value = entry.getElement();
+	           
+	           for(int pos=0; pos < globo_dict_size + 1; pos++)
+	           {
+	        	   sum_weights__politics[ pos ] +=  value[ pos ]; 
+	           }
+	       }
+	       for(int pos=0; pos < globo_dict_size + 1; pos++)
+	       {
+	    	   average_weights__politics[ pos ] = sum_weights__politics[ pos ] / cached_weights__politics.size(); 
+	       }
+		  
+		  
+		  
+
 		  	  
 		  
 		  //TEST   
@@ -303,7 +403,7 @@ public class MulticlassPerceptron
 		  for (p = 0; p < number_of_files__test; p++) 
 		  {
 			  
-			  int predict_science = calculateOutput( theta, weights__science, feature_matrix__test, p, globo_dict_size );
+			  int predict_science = calculateOutput( theta, average_weights__science, feature_matrix__test, p, globo_dict_size );
 			  
 		      actual_class = ( test_file_true_label[p] ).equals( LABEL_science ) ? 1 : 0;
 			  
@@ -316,7 +416,7 @@ public class MulticlassPerceptron
 		      if( actual_class == 0 && predict_science == 0 )
 		    	  tn_science++;  
 
-			  int predict_sports = calculateOutput( theta, weights__sports, feature_matrix__test, p, globo_dict_size );
+			  int predict_sports = calculateOutput( theta, average_weights__sports, feature_matrix__test, p, globo_dict_size );
 			  
 			  actual_class = ( test_file_true_label[p] ).equals( LABEL_sports ) ? 1 : 0;
 			  
@@ -329,7 +429,7 @@ public class MulticlassPerceptron
 		      if( actual_class == 0 && predict_sports == 0 )
 		    	  tn_sports++;
 
-			  int predict_politics = calculateOutput( theta, weights__politics, feature_matrix__test, p, globo_dict_size );
+			  int predict_politics = calculateOutput( theta, average_weights__politics, feature_matrix__test, p, globo_dict_size );
 			  
 			  actual_class = ( test_file_true_label[p] ).equals( LABEL_politics ) ? 1 : 0;
 			  
@@ -342,7 +442,7 @@ public class MulticlassPerceptron
 		      if( actual_class == 0 && predict_politics == 0 )
 		    	  tn_politics++;
 
-			  int predict_atheism = calculateOutput( theta, weights__atheism, feature_matrix__test, p, globo_dict_size );
+			  int predict_atheism = calculateOutput( theta, average_weights__atheism, feature_matrix__test, p, globo_dict_size );
 			  
 			  actual_class = ( test_file_true_label[p] ).equals( LABEL_atheism ) ? 1 : 0;
 			  
