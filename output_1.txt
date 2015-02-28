@@ -1,0 +1,813 @@
+Science vs. All
+Iteration 01 : RMSE = 0.5897563056042725
+Science vs. All
+Iteration 02 : RMSE = 0.5528336096873995
+Science vs. All
+Iteration 03 : RMSE = 0.5379358697837503
+Science vs. All
+Iteration 04 : RMSE = 0.55
+Science vs. All
+Iteration 05 : RMSE = 0.533561149260326
+Science vs. All
+Iteration 06 : RMSE = 0.4818583816849096
+Science vs. All
+Iteration 07 : RMSE = 0.49749371855331
+Science vs. All
+Iteration 08 : RMSE = 0.4825064766404696
+Science vs. All
+Iteration 09 : RMSE = 0.48573398069313617
+Science vs. All
+Iteration 10 : RMSE = 0.4667038675648617
+Science vs. All
+Iteration 11 : RMSE = 0.4736823830374104
+Science vs. All
+Iteration 12 : RMSE = 0.4673729773959979
+Science vs. All
+Iteration 13 : RMSE = 0.4517327749898163
+Science vs. All
+Iteration 14 : RMSE = 0.45034708836629556
+Science vs. All
+Iteration 15 : RMSE = 0.44895712490169926
+Science vs. All
+Iteration 16 : RMSE = 0.4422951503238533
+Science vs. All
+Iteration 17 : RMSE = 0.4472135954999579
+Science vs. All
+Iteration 18 : RMSE = 0.4297528359417771
+Science vs. All
+Iteration 19 : RMSE = 0.4383919479187546
+Science vs. All
+Iteration 20 : RMSE = 0.43517237963823024
+Science vs. All
+Iteration 21 : RMSE = 0.42756578441217674
+Science vs. All
+Iteration 22 : RMSE = 0.4253674881793389
+Science vs. All
+Iteration 23 : RMSE = 0.4268342769740968
+Science vs. All
+Iteration 24 : RMSE = 0.4046603514059661
+Science vs. All
+Iteration 25 : RMSE = 0.41982139059366663
+Science vs. All
+Iteration 26 : RMSE = 0.39370039370059057
+Science vs. All
+Iteration 27 : RMSE = 0.4081206929328627
+Science vs. All
+Iteration 28 : RMSE = 0.4107919181288746
+Science vs. All
+Iteration 29 : RMSE = 0.3956797947836103
+Science vs. All
+Iteration 30 : RMSE = 0.39330331806380686
+Science vs. All
+Iteration 31 : RMSE = 0.4035003097892243
+Science vs. All
+Iteration 32 : RMSE = 0.39409706926086113
+Science vs. All
+Iteration 33 : RMSE = 0.39409706926086113
+Science vs. All
+Iteration 34 : RMSE = 0.40543186850567137
+Science vs. All
+Iteration 35 : RMSE = 0.39171099039980994
+Science vs. All
+Iteration 36 : RMSE = 0.38890872965260115
+Science vs. All
+Iteration 37 : RMSE = 0.3820176697484031
+Science vs. All
+Iteration 38 : RMSE = 0.3799671038392666
+Science vs. All
+Iteration 39 : RMSE = 0.3905124837953327
+Science vs. All
+Iteration 40 : RMSE = 0.38446391248074246
+Science vs. All
+Iteration 41 : RMSE = 0.3840572873934304
+Science vs. All
+Iteration 42 : RMSE = 0.3893102875599359
+Science vs. All
+Iteration 43 : RMSE = 0.3811987670494227
+Science vs. All
+Iteration 44 : RMSE = 0.38487010795851634
+Science vs. All
+Iteration 45 : RMSE = 0.3832427429188973
+Science vs. All
+Iteration 46 : RMSE = 0.38283482077783887
+Science vs. All
+Iteration 47 : RMSE = 0.3648629879831606
+Science vs. All
+Iteration 48 : RMSE = 0.33957694268015315
+Science vs. All
+Iteration 49 : RMSE = 0.33024612034057266
+Science vs. All
+Iteration 50 : RMSE = 0.37038830975072634
+Science vs. All
+Iteration 51 : RMSE = 0.369120576505835
+Science vs. All
+Iteration 52 : RMSE = 0.3779054114457744
+Science vs. All
+Iteration 53 : RMSE = 0.36314597615834876
+Science vs. All
+Iteration 54 : RMSE = 0.37583240945932267
+Science vs. All
+Iteration 55 : RMSE = 0.3377314021526574
+Science vs. All
+Iteration 56 : RMSE = 0.3269174207655505
+Science vs. All
+Iteration 57 : RMSE = 0.35178118198675723
+Science vs. All
+Iteration 58 : RMSE = 0.3477606935810889
+Science vs. All
+Iteration 59 : RMSE = 0.3737479096931513
+Science vs. All
+Iteration 60 : RMSE = 0.3686970300938156
+Science vs. All
+Iteration 61 : RMSE = 0.324037034920393
+Science vs. All
+Iteration 62 : RMSE = 0.2531057091414573
+Science vs. All
+Iteration 63 : RMSE = 0.3142451272494134
+Science vs. All
+Iteration 64 : RMSE = 0.30362394503727796
+Science vs. All
+Iteration 65 : RMSE = 0.32015621187164245
+Science vs. All
+Iteration 66 : RMSE = 0.3570714214271425
+Science vs. All
+Iteration 67 : RMSE = 0.35222507009013426
+Science vs. All
+Iteration 68 : RMSE = 0.325
+Science vs. All
+Iteration 69 : RMSE = 0.33166247903553997
+Science vs. All
+Iteration 70 : RMSE = 0.3803781013675735
+Science vs. All
+Iteration 71 : RMSE = 0.3779054114457744
+Science vs. All
+Iteration 72 : RMSE = 0.3724916106437835
+Science vs. All
+Iteration 73 : RMSE = 0.3142451272494134
+Science vs. All
+Iteration 74 : RMSE = 0.25
+Science vs. All
+Iteration 75 : RMSE = 0.3167214864829982
+Science vs. All
+Iteration 76 : RMSE = 0.3206438834595165
+Science vs. All
+Iteration 77 : RMSE = 0.23116552511133662
+Science vs. All
+Iteration 78 : RMSE = 0.33071891388307384
+Science vs. All
+Iteration 79 : RMSE = 0.3674234614174767
+Science vs. All
+Iteration 80 : RMSE = 0.30618621784789724
+Science vs. All
+Iteration 81 : RMSE = 0.2680951323690902
+Science vs. All
+Iteration 82 : RMSE = 0.3066961036596324
+Science vs. All
+Iteration 83 : RMSE = 0.3856812155135378
+Science vs. All
+Iteration 84 : RMSE = 0.3544361719689456
+Science vs. All
+Iteration 85 : RMSE = 0.30362394503727796
+Science vs. All
+Iteration 86 : RMSE = 0.24302777619029475
+Science vs. All
+Iteration 87 : RMSE = 0.32015621187164245
+Science vs. All
+Iteration 88 : RMSE = 0.3386554296036017
+Science vs. All
+Iteration 89 : RMSE = 0.39250796170268953
+Science vs. All
+Iteration 90 : RMSE = 0.29315098498896436
+Science vs. All
+Iteration 91 : RMSE = 0.2531057091414573
+Science vs. All
+Iteration 92 : RMSE = 0.23979157616563598
+Science vs. All
+Iteration 93 : RMSE = 0.2942150573984955
+Science vs. All
+Iteration 94 : RMSE = 0.3811987670494227
+Science vs. All
+Iteration 95 : RMSE = 0.28993533761858004
+Science vs. All
+Iteration 96 : RMSE = 0.2926174977679906
+Science vs. All
+Iteration 97 : RMSE = 0.37165171868296265
+Science vs. All
+Iteration 98 : RMSE = 0.33166247903553997
+Science vs. All
+Iteration 99 : RMSE = 0.2936835031117683
+Science vs. All
+Iteration 100 : RMSE = 0.37749172176353746
+Science vs. All
+Iteration 101 : RMSE = 0.3211308144666282
+Sports vs. All
+Iteration 01 : RMSE = 0.5247022965453839
+Sports vs. All
+Iteration 02 : RMSE = 0.4996874022826671
+Sports vs. All
+Iteration 03 : RMSE = 0.49874843358150006
+Sports vs. All
+Iteration 04 : RMSE = 0.543426627982104
+Sports vs. All
+Iteration 05 : RMSE = 0.4697073557013984
+Sports vs. All
+Iteration 06 : RMSE = 0.4626688880830437
+Sports vs. All
+Iteration 07 : RMSE = 0.44895712490169926
+Sports vs. All
+Iteration 08 : RMSE = 0.44930501889028573
+Sports vs. All
+Iteration 09 : RMSE = 0.44017042154147523
+Sports vs. All
+Iteration 10 : RMSE = 0.4398153021439795
+Sports vs. All
+Iteration 11 : RMSE = 0.4268342769740968
+Sports vs. All
+Iteration 12 : RMSE = 0.4319288135792749
+Sports vs. All
+Iteration 13 : RMSE = 0.3988264033385954
+Sports vs. All
+Iteration 14 : RMSE = 0.3695436374773621
+Sports vs. All
+Iteration 15 : RMSE = 0.42610151372648275
+Sports vs. All
+Iteration 16 : RMSE = 0.42720018726587655
+Sports vs. All
+Iteration 17 : RMSE = 0.39210967853395307
+Sports vs. All
+Iteration 18 : RMSE = 0.36055512754639896
+Sports vs. All
+Iteration 19 : RMSE = 0.3856812155135378
+Sports vs. All
+Iteration 20 : RMSE = 0.3686970300938156
+Sports vs. All
+Iteration 21 : RMSE = 0.3807886552931954
+Sports vs. All
+Iteration 22 : RMSE = 0.37165171868296265
+Sports vs. All
+Iteration 23 : RMSE = 0.36529097990506143
+Sports vs. All
+Iteration 24 : RMSE = 0.3674234614174767
+Sports vs. All
+Iteration 25 : RMSE = 0.3544361719689456
+Sports vs. All
+Iteration 26 : RMSE = 0.3657184709581949
+Sports vs. All
+Iteration 27 : RMSE = 0.3791437722025775
+Sports vs. All
+Iteration 28 : RMSE = 0.3791437722025775
+Sports vs. All
+Iteration 29 : RMSE = 0.37583240945932267
+Sports vs. All
+Iteration 30 : RMSE = 0.3737479096931513
+Sports vs. All
+Iteration 31 : RMSE = 0.3909123942777972
+Sports vs. All
+Iteration 32 : RMSE = 0.38283482077783887
+Sports vs. All
+Iteration 33 : RMSE = 0.38365023133057014
+Sports vs. All
+Iteration 34 : RMSE = 0.3811987670494227
+Sports vs. All
+Iteration 35 : RMSE = 0.3762479235823103
+Sports vs. All
+Iteration 36 : RMSE = 0.3669979563975799
+Sports vs. All
+Iteration 37 : RMSE = 0.37291084725440743
+Sports vs. All
+Iteration 38 : RMSE = 0.36314597615834876
+Sports vs. All
+Iteration 39 : RMSE = 0.3644344934278313
+Sports vs. All
+Iteration 40 : RMSE = 0.3557562367689427
+Sports vs. All
+Iteration 41 : RMSE = 0.3770775782249589
+Sports vs. All
+Iteration 42 : RMSE = 0.3548767391644598
+Sports vs. All
+Iteration 43 : RMSE = 0.3609882269548413
+Sports vs. All
+Iteration 44 : RMSE = 0.3531111722956384
+Sports vs. All
+Iteration 45 : RMSE = 0.35531676008879737
+Sports vs. All
+Iteration 46 : RMSE = 0.38283482077783887
+Sports vs. All
+Iteration 47 : RMSE = 0.3686970300938156
+Sports vs. All
+Iteration 48 : RMSE = 0.3513367330638799
+Sports vs. All
+Iteration 49 : RMSE = 0.35178118198675723
+Sports vs. All
+Iteration 50 : RMSE = 0.3504461442219047
+Sports vs. All
+Iteration 51 : RMSE = 0.3539950564626574
+Sports vs. All
+Iteration 52 : RMSE = 0.34641016151377546
+Sports vs. All
+Iteration 53 : RMSE = 0.3468609231377902
+Sports vs. All
+Iteration 54 : RMSE = 0.3548767391644598
+Sports vs. All
+Iteration 55 : RMSE = 0.34003676271838607
+Sports vs. All
+Iteration 56 : RMSE = 0.3441474974484051
+Sports vs. All
+Iteration 57 : RMSE = 0.336804839632687
+Sports vs. All
+Iteration 58 : RMSE = 0.3446012188022555
+Sports vs. All
+Iteration 59 : RMSE = 0.3404959617969059
+Sports vs. All
+Iteration 60 : RMSE = 0.3504461442219047
+Sports vs. All
+Iteration 61 : RMSE = 0.33494402517435656
+Sports vs. All
+Iteration 62 : RMSE = 0.3363406011768428
+Sports vs. All
+Iteration 63 : RMSE = 0.33541019662496846
+Sports vs. All
+Iteration 64 : RMSE = 0.3377314021526574
+Sports vs. All
+Iteration 65 : RMSE = 0.3414125070936916
+Sports vs. All
+Iteration 66 : RMSE = 0.34003676271838607
+Sports vs. All
+Iteration 67 : RMSE = 0.34003676271838607
+Sports vs. All
+Iteration 68 : RMSE = 0.33166247903553997
+Sports vs. All
+Iteration 69 : RMSE = 0.3450543435460565
+Sports vs. All
+Iteration 70 : RMSE = 0.3544361719689456
+Sports vs. All
+Iteration 71 : RMSE = 0.33024612034057266
+Sports vs. All
+Iteration 72 : RMSE = 0.3446012188022555
+Sports vs. All
+Iteration 73 : RMSE = 0.3432382554436495
+Sports vs. All
+Iteration 74 : RMSE = 0.3432382554436495
+Sports vs. All
+Iteration 75 : RMSE = 0.3292984968079873
+Sports vs. All
+Iteration 76 : RMSE = 0.2926174977679906
+Sports vs. All
+Iteration 77 : RMSE = 0.3127499000799201
+Sports vs. All
+Iteration 78 : RMSE = 0.270993542358485
+Sports vs. All
+Iteration 79 : RMSE = 0.27443123000125186
+Sports vs. All
+Iteration 80 : RMSE = 0.3010398644698074
+Sports vs. All
+Iteration 81 : RMSE = 0.33166247903553997
+Sports vs. All
+Iteration 82 : RMSE = 0.28339460121886584
+Sports vs. All
+Iteration 83 : RMSE = 0.29738443133425796
+Sports vs. All
+Iteration 84 : RMSE = 0.30973779233409665
+Sports vs. All
+Iteration 85 : RMSE = 0.3414125070936916
+Sports vs. All
+Iteration 86 : RMSE = 0.3269174207655505
+Sports vs. All
+Iteration 87 : RMSE = 0.3191786333700926
+Sports vs. All
+Iteration 88 : RMSE = 0.33119103248729426
+Sports vs. All
+Iteration 89 : RMSE = 0.33119103248729426
+Sports vs. All
+Iteration 90 : RMSE = 0.31024184114977144
+Sports vs. All
+Iteration 91 : RMSE = 0.33119103248729426
+Sports vs. All
+Iteration 92 : RMSE = 0.3112474899497183
+Sports vs. All
+Iteration 93 : RMSE = 0.32548041415728846
+Sports vs. All
+Iteration 94 : RMSE = 0.3082207001484488
+Sports vs. All
+Iteration 95 : RMSE = 0.33494402517435656
+Sports vs. All
+Iteration 96 : RMSE = 0.3216170082567152
+Sports vs. All
+Iteration 97 : RMSE = 0.33166247903553997
+Sports vs. All
+Iteration 98 : RMSE = 0.3132491021535417
+Sports vs. All
+Iteration 99 : RMSE = 0.3082207001484488
+Sports vs. All
+Iteration 100 : RMSE = 0.33213325638966057
+Sports vs. All
+Iteration 101 : RMSE = 0.3142451272494134
+Politics vs. All
+Iteration 01 : RMSE = 0.5396758286230726
+Politics vs. All
+Iteration 02 : RMSE = 0.4319288135792749
+Politics vs. All
+Iteration 03 : RMSE = 0.4027250923396753
+Politics vs. All
+Iteration 04 : RMSE = 0.4242640687119285
+Politics vs. All
+Iteration 05 : RMSE = 0.36055512754639896
+Politics vs. All
+Iteration 06 : RMSE = 0.3669979563975799
+Politics vs. All
+Iteration 07 : RMSE = 0.3112474899497183
+Politics vs. All
+Iteration 08 : RMSE = 0.35266839949164713
+Politics vs. All
+Iteration 09 : RMSE = 0.29738443133425796
+Politics vs. All
+Iteration 10 : RMSE = 0.3770775782249589
+Politics vs. All
+Iteration 11 : RMSE = 0.31622776601683794
+Politics vs. All
+Iteration 12 : RMSE = 0.2622022120425379
+Politics vs. All
+Iteration 13 : RMSE = 0.35925269657999787
+Politics vs. All
+Iteration 14 : RMSE = 0.2778263846361609
+Politics vs. All
+Iteration 15 : RMSE = 0.35663356544217767
+Politics vs. All
+Iteration 16 : RMSE = 0.3423265984407288
+Politics vs. All
+Iteration 17 : RMSE = 0.20233017570298306
+Politics vs. All
+Iteration 18 : RMSE = 0.24173849507267145
+Politics vs. All
+Iteration 19 : RMSE = 0.36055512754639896
+Politics vs. All
+Iteration 20 : RMSE = 0.21650635094610965
+Politics vs. All
+Iteration 21 : RMSE = 0.20077973005261263
+Politics vs. All
+Iteration 22 : RMSE = 0.28449516691852605
+Politics vs. All
+Iteration 23 : RMSE = 0.20766559657295186
+Politics vs. All
+Iteration 24 : RMSE = 0.20615528128088303
+Politics vs. All
+Iteration 25 : RMSE = 0.17765838004439868
+Politics vs. All
+Iteration 26 : RMSE = 0.2531057091414573
+Politics vs. All
+Iteration 27 : RMSE = 0.14577379737113252
+Politics vs. All
+Iteration 28 : RMSE = 0.203100960115899
+Politics vs. All
+Iteration 29 : RMSE = 0.21065374432940895
+Politics vs. All
+Iteration 30 : RMSE = 0.17765838004439868
+Politics vs. All
+Iteration 31 : RMSE = 0.125
+Politics vs. All
+Iteration 32 : RMSE = 0.12119199643540822
+Politics vs. All
+Iteration 33 : RMSE = 0.28339460121886584
+Politics vs. All
+Iteration 34 : RMSE = 0.16105123408406408
+Politics vs. All
+Iteration 35 : RMSE = 0.1015504800579495
+Politics vs. All
+Iteration 36 : RMSE = 0.22569337606584736
+Politics vs. All
+Iteration 37 : RMSE = 0.25186802099512356
+Politics vs. All
+Iteration 38 : RMSE = 0.17589059099337861
+Politics vs. All
+Iteration 39 : RMSE = 0.22980970388562794
+Politics vs. All
+Iteration 40 : RMSE = 0.3025929609227551
+Politics vs. All
+Iteration 41 : RMSE = 0.32977264895682296
+Politics vs. All
+Iteration 42 : RMSE = 0.3147419578003543
+Politics vs. All
+Iteration 43 : RMSE = 0.324037034920393
+Politics vs. All
+Iteration 44 : RMSE = 0.3344772040064913
+Politics vs. All
+Iteration 45 : RMSE = 0.32834813841409244
+Politics vs. All
+Iteration 46 : RMSE = 0.31024184114977144
+Politics vs. All
+Iteration 47 : RMSE = 0.325
+Politics vs. All
+Iteration 48 : RMSE = 0.30973779233409665
+Politics vs. All
+Iteration 49 : RMSE = 0.325
+Politics vs. All
+Iteration 50 : RMSE = 0.3107450723664013
+Politics vs. All
+Iteration 51 : RMSE = 0.31174909783349813
+Politics vs. All
+Iteration 52 : RMSE = 0.3191786333700926
+Politics vs. All
+Iteration 53 : RMSE = 0.3269174207655505
+Politics vs. All
+Iteration 54 : RMSE = 0.3107450723664013
+Politics vs. All
+Iteration 55 : RMSE = 0.3235544776386196
+Politics vs. All
+Iteration 56 : RMSE = 0.3107450723664013
+Politics vs. All
+Iteration 57 : RMSE = 0.3082207001484488
+Politics vs. All
+Iteration 58 : RMSE = 0.30413812651491096
+Politics vs. All
+Iteration 59 : RMSE = 0.3077133406272793
+Politics vs. All
+Iteration 60 : RMSE = 0.225
+Politics vs. All
+Iteration 61 : RMSE = 0.24238399287081644
+Politics vs. All
+Iteration 62 : RMSE = 0.21578345627040085
+Politics vs. All
+Iteration 63 : RMSE = 0.21286732957408
+Politics vs. All
+Iteration 64 : RMSE = 0.21360009363293828
+Politics vs. All
+Iteration 65 : RMSE = 0.1984313483298443
+Politics vs. All
+Iteration 66 : RMSE = 0.1620185174601965
+Politics vs. All
+Iteration 67 : RMSE = 0.16677080080157916
+Politics vs. All
+Iteration 68 : RMSE = 0.1620185174601965
+Politics vs. All
+Iteration 69 : RMSE = 0.15309310892394862
+Politics vs. All
+Iteration 70 : RMSE = 0.19921721813136534
+Politics vs. All
+Iteration 71 : RMSE = 0.20841665000666332
+Politics vs. All
+Iteration 72 : RMSE = 0.1541103500742244
+Politics vs. All
+Iteration 73 : RMSE = 0.1479019945774904
+Politics vs. All
+Iteration 74 : RMSE = 0.15
+Politics vs. All
+Iteration 75 : RMSE = 0.18957188610128875
+Politics vs. All
+Iteration 76 : RMSE = 0.17765838004439868
+Politics vs. All
+Iteration 77 : RMSE = 0.11726039399558574
+Politics vs. All
+Iteration 78 : RMSE = 0.23979157616563598
+Politics vs. All
+Iteration 79 : RMSE = 0.17589059099337861
+Politics vs. All
+Iteration 80 : RMSE = 0.2091650066335189
+Politics vs. All
+Iteration 81 : RMSE = 0.17410485346480148
+Politics vs. All
+Iteration 82 : RMSE = 0.1346291201783626
+Politics vs. All
+Iteration 83 : RMSE = 0.13228756555322954
+Politics vs. All
+Iteration 84 : RMSE = 0.23518609652783473
+Politics vs. All
+Iteration 85 : RMSE = 0.2669269563007828
+Politics vs. All
+Iteration 86 : RMSE = 0.21213203435596426
+Politics vs. All
+Iteration 87 : RMSE = 0.16677080080157916
+Politics vs. All
+Iteration 88 : RMSE = 0.1286953767623375
+Politics vs. All
+Iteration 89 : RMSE = 0.1286953767623375
+Politics vs. All
+Iteration 90 : RMSE = 0.2091650066335189
+Politics vs. All
+Iteration 91 : RMSE = 0.15512092057488572
+Politics vs. All
+Iteration 92 : RMSE = 0.20615528128088303
+Politics vs. All
+Iteration 93 : RMSE = 0.2091650066335189
+Politics vs. All
+Iteration 94 : RMSE = 0.2
+Politics vs. All
+Iteration 95 : RMSE = 0.1414213562373095
+Politics vs. All
+Iteration 96 : RMSE = 0.10458250331675945
+Politics vs. All
+Iteration 97 : RMSE = 0.10458250331675945
+Politics vs. All
+Iteration 98 : RMSE = 0.09519716382329885
+Politics vs. All
+Iteration 99 : RMSE = 0.1
+Politics vs. All
+Iteration 100 : RMSE = 0.13693063937629152
+Politics vs. All
+Iteration 101 : RMSE = 0.19525624189766635
+Atheism vs. All
+Iteration 01 : RMSE = 0.5273755777432246
+Atheism vs. All
+Iteration 02 : RMSE = 0.4716990566028302
+Atheism vs. All
+Iteration 03 : RMSE = 0.4246321937865757
+Atheism vs. All
+Iteration 04 : RMSE = 0.38487010795851634
+Atheism vs. All
+Iteration 05 : RMSE = 0.35266839949164713
+Atheism vs. All
+Iteration 06 : RMSE = 0.29633173977824245
+Atheism vs. All
+Iteration 07 : RMSE = 0.31174909783349813
+Atheism vs. All
+Iteration 08 : RMSE = 0.37080992435478316
+Atheism vs. All
+Iteration 09 : RMSE = 0.2861380785564899
+Atheism vs. All
+Iteration 10 : RMSE = 0.31374750995027834
+Atheism vs. All
+Iteration 11 : RMSE = 0.2942150573984955
+Atheism vs. All
+Iteration 12 : RMSE = 0.30310889132455354
+Atheism vs. All
+Iteration 13 : RMSE = 0.32977264895682296
+Atheism vs. All
+Iteration 14 : RMSE = 0.3235544776386196
+Atheism vs. All
+Iteration 15 : RMSE = 0.20233017570298306
+Atheism vs. All
+Iteration 16 : RMSE = 0.2669269563007828
+Atheism vs. All
+Iteration 17 : RMSE = 0.175
+Atheism vs. All
+Iteration 18 : RMSE = 0.258602010819715
+Atheism vs. All
+Iteration 19 : RMSE = 0.25495097567963926
+Atheism vs. All
+Iteration 20 : RMSE = 0.29633173977824245
+Atheism vs. All
+Iteration 21 : RMSE = 0.2910111681705704
+Atheism vs. All
+Iteration 22 : RMSE = 0.15512092057488572
+Atheism vs. All
+Iteration 23 : RMSE = 0.2872281323269014
+Atheism vs. All
+Iteration 24 : RMSE = 0.2537222891273055
+Atheism vs. All
+Iteration 25 : RMSE = 0.26160561920570435
+Atheism vs. All
+Iteration 26 : RMSE = 0.21360009363293828
+Atheism vs. All
+Iteration 27 : RMSE = 0.28993533761858004
+Atheism vs. All
+Iteration 28 : RMSE = 0.24748737341529164
+Atheism vs. All
+Iteration 29 : RMSE = 0.25433737436719756
+Atheism vs. All
+Iteration 30 : RMSE = 0.2
+Atheism vs. All
+Iteration 31 : RMSE = 0.1286953767623375
+Atheism vs. All
+Iteration 32 : RMSE = 0.26100766272276377
+Atheism vs. All
+Iteration 33 : RMSE = 0.24622144504490262
+Atheism vs. All
+Iteration 34 : RMSE = 0.1286953767623375
+Atheism vs. All
+Iteration 35 : RMSE = 0.17320508075688773
+Atheism vs. All
+Iteration 36 : RMSE = 0.15103807466993216
+Atheism vs. All
+Iteration 37 : RMSE = 0.1131923142267177
+Atheism vs. All
+Iteration 38 : RMSE = 0.1620185174601965
+Atheism vs. All
+Iteration 39 : RMSE = 0.12374368670764582
+Atheism vs. All
+Iteration 40 : RMSE = 0.2592055169165965
+Atheism vs. All
+Iteration 41 : RMSE = 0.270993542358485
+Atheism vs. All
+Iteration 42 : RMSE = 0.27271780286589287
+Atheism vs. All
+Iteration 43 : RMSE = 0.125
+Atheism vs. All
+Iteration 44 : RMSE = 0.12119199643540822
+Atheism vs. All
+Iteration 45 : RMSE = 0.16298006013006622
+Atheism vs. All
+Iteration 46 : RMSE = 0.12747548783981963
+Atheism vs. All
+Iteration 47 : RMSE = 0.16298006013006622
+Atheism vs. All
+Iteration 48 : RMSE = 0.1767766952966369
+Atheism vs. All
+Iteration 49 : RMSE = 0.12624381172952598
+Atheism vs. All
+Iteration 50 : RMSE = 0.08660254037844387
+Atheism vs. All
+Iteration 51 : RMSE = 0.08100925873009825
+Atheism vs. All
+Iteration 52 : RMSE = 0.1
+Atheism vs. All
+Iteration 53 : RMSE = 0.09842509842514764
+Atheism vs. All
+Iteration 54 : RMSE = 0.09519716382329885
+Atheism vs. All
+Iteration 55 : RMSE = 0.09519716382329885
+Atheism vs. All
+Iteration 56 : RMSE = 0.075
+Atheism vs. All
+Iteration 57 : RMSE = 0.14252192813739226
+Atheism vs. All
+Iteration 58 : RMSE = 0.114564392373896
+Atheism vs. All
+Iteration 59 : RMSE = 0.08100925873009825
+Atheism vs. All
+Iteration 60 : RMSE = 0.03952847075210474
+Atheism vs. All
+Iteration 61 : RMSE = 0.14469796128487783
+Atheism vs. All
+Iteration 62 : RMSE = 0.10458250331675945
+Atheism vs. All
+Iteration 63 : RMSE = 0.15206906325745548
+Atheism vs. All
+Iteration 64 : RMSE = 0.14577379737113252
+Atheism vs. All
+Iteration 65 : RMSE = 0.07905694150420949
+Atheism vs. All
+Iteration 66 : RMSE = 0.035355339059327376
+Atheism vs. All
+Iteration 67 : RMSE = 0.030618621784789725
+Atheism vs. All
+Iteration 68 : RMSE = 0.1403121520040228
+Atheism vs. All
+Iteration 69 : RMSE = 0.10458250331675945
+Atheism vs. All
+Iteration 70 : RMSE = 0.05
+Atheism vs. All
+Iteration 71 : RMSE = 0.05590169943749474
+Atheism vs. All
+Iteration 72 : RMSE = 0.03952847075210474
+Atheism vs. All
+Iteration 73 : RMSE = 0.035355339059327376
+Atheism vs. All
+Iteration 74 : RMSE = 0.05590169943749474
+Atheism vs. All
+Iteration 75 : RMSE = 0.05
+Atheism vs. All
+Iteration 76 : RMSE = 0.0
+
+SCIENCE
+tp_science: 166.0
+fp_science: 284.0
+tn_science: 316.0
+fn_science: 34.0
+
+precision_science = 0.3688888888888889
+recall_science = 0.83
+f_measure_science = 0.5107692307692308
+
+
+
+SPORTS
+tp_sports: 43.0
+fp_sports: 5.0
+tn_sports: 595.0
+fn_sports: 157.0
+
+precision_sports = 0.8958333333333334
+recall_sports = 0.215
+f_measure_sports = 0.34677419354838707
+
+
+
+POLITICS
+tp_politics: 168.0
+fp_politics: 14.0
+tn_politics: 586.0
+fn_politics: 32.0
+
+precision_politics = 0.9230769230769231
+recall_politics = 0.84
+f_measure_politics = 0.8795811518324608
+
+
+
+ATHEISM
+tp_atheism: 177.0
+fp_atheism: 10.0
+tn_atheism590.0
+fn_atheism: 23.0
+
+precision_atheism = 0.946524064171123
+recall_atheism = 0.885
+f_measure_atheism = 0.9147286821705426
+
+
+
+------------------------------------------------------------------------
+
+AGREGATE
+precision = 0.783580802367567
+recall = 0.6925
+f_measure = 0.6629633145801553

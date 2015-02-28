@@ -74,6 +74,7 @@ public class MulticlassPerceptron
 		  int p, iteration, output;
 		
 		  //SCIENCE
+		  System.out.println("SCIENCE vs. ALL:");
 		  iteration = 0;
 		  do 
 		  {
@@ -98,7 +99,6 @@ public class MulticlassPerceptron
 			  }
 
 			  /* Root Mean Squared Error */
-			  System.out.println("Science vs. All");
 			  if (iteration < 10) 
 				  System.out.println("Iteration 0" + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  else
@@ -108,7 +108,11 @@ public class MulticlassPerceptron
 		  while(globalError != 0 && iteration<=MAX_ITER);
 		  
 		  
+
+
+
 		  //SPORTS
+		  System.out.println("SPORTS vs. ALL");
 		  iteration = 0;
 		  do 
 		  {
@@ -133,7 +137,6 @@ public class MulticlassPerceptron
 			  }
 
 			  /* Root Mean Squared Error */
-			  System.out.println("Sports vs. All");
 			  if (iteration < 10) 
 				  System.out.println("Iteration 0" + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  else
@@ -142,8 +145,12 @@ public class MulticlassPerceptron
 		  } 
 		  while(globalError != 0 && iteration<=MAX_ITER);
 		  
+
+
+
 		  
 		  //POLITICS
+		  System.out.println("POLITICS vs. ALL");
 		  iteration = 0;
 		  do 
 		  {
@@ -168,7 +175,6 @@ public class MulticlassPerceptron
 			  }
 
 			  /* Root Mean Squared Error */
-			  System.out.println("Politics vs. All");
 			  if (iteration < 10) 
 				  System.out.println("Iteration 0" + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  else
@@ -178,7 +184,10 @@ public class MulticlassPerceptron
 		  while(globalError != 0 && iteration<=MAX_ITER);
 		  
 		  
+
+
 		  //ATHEISM
+		  System.out.println("ATHEISM vs. ALL");
 		  iteration = 0;
 		  do 
 		  {
@@ -203,7 +212,6 @@ public class MulticlassPerceptron
 			  }
 
 			  /* Root Mean Squared Error */
-			  System.out.println("Atheism vs. All");
 			  if (iteration < 10) 
 				  System.out.println("Iteration 0" + iteration + " : RMSE = " + Math.sqrt( globalError/number_of_files__train ) );
 			  else

@@ -1,0 +1,55 @@
+
+SCIENCE
+tp_science: 164.0
+fp_science: 277.0
+tn_science: 323.0
+fn_science: 36.0
+
+precision_science = 0.37188208616780044
+recall_science = 0.82
+f_measure_science = 0.5117004680187207
+
+
+
+SPORTS
+tp_sports: 40.0
+fp_sports: 5.0
+tn_sports: 595.0
+fn_sports: 160.0
+
+precision_sports = 0.8888888888888888
+recall_sports = 0.2
+f_measure_sports = 0.326530612244898
+
+
+
+POLITICS
+tp_politics: 167.0
+fp_politics: 17.0
+tn_politics: 583.0
+fn_politics: 33.0
+
+precision_politics = 0.907608695652174
+recall_politics = 0.835
+f_measure_politics = 0.8697916666666666
+
+
+
+ATHEISM
+tp_atheism: 176.0
+fp_atheism: 13.0
+tn_atheism587.0
+fn_atheism: 24.0
+
+precision_atheism = 0.9312169312169312
+recall_atheism = 0.88
+f_measure_atheism = 0.9048843187660669
+
+
+
+------------------------------------------------------------------------
+
+AGREGATE
+precision = 0.7748991504814485
+recall = 0.68375
+f_measure = 0.6532267664240881
